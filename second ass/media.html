@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Me - Media Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="form.html">Application Form</a> |
+        <a href="table.html">AltSchool Courss</a> |
+        <a href="media.html">media</a>
+      </nav>
+      <h1>About Me</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>My Journey in Tech</h2>
+        <p>
+          My name is Ibrahim Ridwan Olamilekan, a passionate and ambitious
+          Computer Science graduate. Here is a visual representation of my
+          journey in the tech world:
+        </p>
+
+        <h3>Image</h3>
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="img/111.jpeg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="img/111.jpeg"
+          />
+          <source
+            media="(min-width: 480px)"
+            srcset="img/111.jpeg"
+          />
+          <img src="img/111.jpeg" alt="My Tech Journey" />
+        </picture>
+
+        <h3>Video</h3>
+        <video controls>
+          <source src="videos/intro.mp4" type="video/mp4" />
+          <source src="videos/intro.webm" type="video/webm" />
+          <source src="videos/intro.ogv" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="audio/message.mp3" type="audio/mpeg" />
+          <source src="audio/message.ogg" type="audio/ogg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#top">Back to Top</a>
+    </footer>
+  </body>
+</html>
