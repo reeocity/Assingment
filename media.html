@@ -10,13 +10,14 @@
       <nav>
         <a href="index.html">Home</a> |
         <a href="form.html">Application Form</a> |
-        <a href="table.html">AltSchool Courss</a> |
+        <a href="table.html">AltSchool Course</a> |
         <a href="media.html">Media</a>
       </nav>
-      <h1>About Me</h1>
+      
     </header>
 
     <main>
+      <h1>About Me</h1>
       <section>
         <h2>My Journey in Tech</h2>
         <p>
@@ -29,30 +30,36 @@
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcset="img/111.jpeg"
+            srcset="Assets/img/princess.png"
           />
           <source
             media="(min-width: 768px)"
-            srcset="img/111.jpeg"
+            srcset="Assets/img/events.png"
           />
           <source
             media="(min-width: 480px)"
-            srcset="img/111.jpeg"
+            srcset="Assets/img/111.jpeg"
           />
-          <img src="img/111.jpeg" alt="My Tech Journey" />
+          <img src="" alt="My Tech Journey" />
         </picture>
 
         <h3>Video</h3>
+        <div id="video-container">
+          <video controls>
+              <source src="/Assets/vid/code.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+      <div id="video-container">
         <video controls>
-          <source src="videos/intro.mp4" type="video/mp4" />
-          <source src="videos/intro.webm" type="video/webm" />
-          <source src="videos/intro.ogv" type="video/ogg" />
-          Your browser does not support the video tag.
+            <source src="/Assets/vid/cycling.avi" type="video/avi">
+            Your browser does not support the video tag.
         </video>
+    </div>
 
         <h3>Audio</h3>
         <audio controls>
-          <source src="audio/message.mp3" type="audio/mpeg" />
+          <source src="/Assets/audio/test.mp3" type="audio/mpeg" />
           <source src="audio/message.ogg" type="audio/ogg" />
           Your browser does not support the audio element.
         </audio>
@@ -60,7 +67,8 @@
     </main>
 
     <footer>
-      <a href="#top">Back to Top</a>
+      <a href="#top">Back to Top</a> 
+      <p>&copy; 2024 <a href="https://github.com/reeocity">Ridwan</a> All rights reserved.</p>
     </footer>
   </body>
 </html>
