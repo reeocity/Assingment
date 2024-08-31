@@ -64,6 +64,9 @@ p {
     margin-bottom: 20px;
 }
 
+p a{
+    color: blue;
+}
 
 ul {
     margin: 0;
@@ -87,6 +90,7 @@ ul li:before {
 }
 
 /* Form Styling */
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -134,7 +138,7 @@ form input[type="submit"]:hover {
 /* Table Styling */
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse:collapse;
     margin: 30px 0;
     border-radius: 12px;
     overflow: hidden;
